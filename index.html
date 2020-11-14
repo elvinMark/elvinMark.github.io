@@ -1,8 +1,41 @@
 <html>
   <head>
-    <title>Welcome to my page!</title>
+    <title>Elvin's Blog</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Test</h1>
+    <header>
+      <div>
+	<nav class="navbar navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#">Welcome to my page!</a>
+	  <ul class="nav">
+	    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">Projects</a>
+	      <div class="dropdown-menu">
+		<a class="dropdown-item" href="#">Test</a>
+	      </div>
+	    </li>
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Blogs</a>
+	      <div class="dropdown-menu">
+		<a class="dropdown-item" href="#">Physics</a>
+		<a class="dropdown-item" href="blogs/cs.html">CS</a>
+	      </div>
+	    </li>
+	  </ul> 
+	</nav>
+      </div>
+    </header>
+    <main role="main">
+      <section class="text-center">
+	<div class="bg-light" style="padding:100px;">
+	  <h1>About me</h1>
+	  <p class="lead text-muted text-left">Hello! My name is Elvin. I've studied Engineering Physics in my country (Peru) and right now I am studying Computer Science in Japan. As you may already guessed, I really like physics and computers. That's why I am planning to post about both topics here. From Physics I really like General Relativity (I've studied a little bit) and String Theory (I am very new in this topic) so I will be posting my advances on my studies in these topics. From Computer Science, I like a lot computer architecture and machine learning. I will also be posting about these topics as well.</p>
+	</div>
+      </section>
+    </main>
   </body>
 </html>
